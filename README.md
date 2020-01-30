@@ -1,68 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
+Weather app was created to check the weather of your local city and compare it with different city.
 
-## Available Scripts
+## My Weather app 
+![Screen Shot 2020-01-30 at 10 45 41 AM](https://user-images.githubusercontent.com/58221902/73465187-03e3eb00-434e-11ea-8954-bf6ea981640a.png)
 
-In the project directory, you can run:
+## Technology 
+React DOM “react document object model “  is the main technology that was used for this project, and of course CSS for some styling. 
 
-### `yarn start`
+## Getting Startted 
+- First thing was done is importing React from react in our major component App.js.
+Once we had imported react, we initialized the component by creating class app,
+and then we used the render method
+to display the data.
+In order for other files to import this component successfully we exported the App component.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Then created our Head.js, Data.js, Form.js, Hum.js components under component folder. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- We made an API call to a URL from  open weather map website openweathermap.org . 
 
-### `yarn test`
+## Components 
+- Head.js this file contains the title of the application. 
+- Data.js this file contains the data that was called from the API. 
+- Form.js this file contains the inputs and the button of the first city. 
+- Hum.js this file contains the inputs and the button of the second city. 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Refrences
+[https://github.com/hamza-mirza/react-weather-app]
+[https://www.w3schools.com/REACT/react_state.asp]
+[https://pusher.com/tutorials/consume-restful-api-react]
