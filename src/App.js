@@ -7,6 +7,7 @@ import Hum from './components/Hum';
 const API_KEY = process.env.REACT_APP_WEATHER_KEY;
 
 class App extends React.Component {
+
   state = {
     temperature: undefined,
     feels_like: undefined,
@@ -23,9 +24,11 @@ class App extends React.Component {
 
   }
   //refrence https://www.w3schools.com/REACT/react_state.asp
-  
+
   seeWeather = (e) => {
+
     e.preventDefault();
+
     const city = e.target.elements.city.value;
     const country = e.target.elements.country.value;
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&APPID=${API_KEY}&units=imperial`)
