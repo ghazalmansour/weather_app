@@ -8,5 +8,5 @@ class Head extends React.Component {
             </div>
         );
     }
-};
+}
 export default Head;
