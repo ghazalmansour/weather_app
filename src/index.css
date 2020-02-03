@@ -1,8 +1,10 @@
+/* Hou comment: how would avoid using tag selectors to style your app? Can you use class selectors to style your app instead? */
 
+/* Hou comment: consider creating separate stylesheets for your components instead of putting all the CSS in one file, as it will become unscaleable over time */
 body {
-background-image: url('/photo/weatherphoto.jpg');
-background-repeat: no-repeat;
- background-size: 1300px 900px ;
+  background-image: url('/photo/weatherphoto.jpg');
+  background-repeat: no-repeat;
+  background-size: 1300px 900px;
 }
 .header {
   font-family: fantasy;
@@ -10,56 +12,53 @@ background-repeat: no-repeat;
   font-style: oblique;
   text-align: center;
   color: darkslategray;
-  background-image:url('/photo/sunphoto.png'), url('/photo/temphoto.png');
-  background-position: right , left;
+  background-image: url('/photo/sunphoto.png'), url('/photo/temphoto.png');
+  background-position: right, left;
   background-repeat: no-repeat, no-repeat;
- background-size: 130px 100px, 130px 100px; 
+  background-size: 130px 100px, 130px 100px;
 }
 .mid {
   text-align: center;
-  padding-bottom:
-  20px;
- 
+  padding-bottom: 20px;
 }
-button{
-   line-height: 30px; 
-   border-radius: 30px;
-   width: 13%;
-   font-size: 15px;
-   font-style: oblique;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: darkslategray;
-}
-input{
+button {
   line-height: 30px;
-    border-radius: 30px;
-    width: 20%;
+  border-radius: 30px;
+  width: 13%;
+  font-size: 15px;
+  font-style: oblique;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: darkslategray;
+}
+input {
+  line-height: 30px;
+  border-radius: 30px;
+  width: 20%;
   font-size: 20px;
   font-style: oblique;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   color: darkslategray;
+  color: darkslategray;
 }
 .Weather {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: oblique;
   padding-top: 100px;
- line-height: 34px;
+  line-height: 34px;
 }
 h3 {
   color: maroon;
-font-size: 30px;
-
+  font-size: 30px;
 }
 h1 {
   font-size: 30px;
 }
-h2{
+h2 {
   font-size: 20px;
 }
-h4{
+h4 {
   font-size: 20px;
 }
-h5{
+h5 {
   font-size: 20px;
 }
